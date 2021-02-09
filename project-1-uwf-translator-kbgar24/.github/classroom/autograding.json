@@ -1,0 +1,84 @@
+{
+	"tests": [
+	{
+		"name": "Default constructor",
+		"setup": "",
+		"run": "timeout 60 gradle test_default_constructor",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Parameterized constructor",
+		"setup": "",
+		"run": "timeout 60 gradle test_parameterized_constructor",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Setters and getters",
+		"setup": "",
+		"run": "timeout 60 gradle test_setters_getters",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Test word translate",
+		"setup": "",
+		"run": "timeout 60 gradle test_word_no_vowel",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Test word translate",
+		"setup": "",
+		"run": "timeout 60 gradle test_word_vowel_first",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Test sentence translate",
+		"setup": "",
+		"run": "timeout 60 gradle test_sentence",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 15
+	},
+	{
+		"name": "Run main",
+		"setup": "",
+		"run": "timeout 60 gradle run",
+		"input": "translate into UWF Language\naeiou\nexit\n",
+		"output": "translateargo hiontuwf huwfuwf languageargo",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Run main",
+		"setup": "",
+		"run": "timeout 60 gradle run",
+		"input": "translate into UWF Language\naeiou\ntranslate into UWF Language\nernistu\nexit\n",
+		"output": "htrnstealauwf hintouwf huwfuwf languageargo",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	}
+	]
+}
