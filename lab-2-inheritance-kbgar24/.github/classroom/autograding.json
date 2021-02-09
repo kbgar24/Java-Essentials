@@ -1,0 +1,24 @@
+{
+	"tests": [
+	{
+		"name": "Verify inheritance",
+		"setup": "",
+		"run": "timeout 60 gradle test --tests InheritanceTest",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 5
+	},
+	{
+		"name": "Run tests",
+		"setup": "",
+		"run": "timeout 60 gradle test",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 5
+	}
+	]
+}
